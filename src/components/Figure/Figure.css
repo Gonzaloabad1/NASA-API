@@ -1,0 +1,20 @@
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  
+  figure img {
+    width: 26rem;
+    height: 26rem;
+    object-fit: cover;
+    padding: 0.3rem;
+    border: 2px black dotted;
+  }
+  @media (max-width: 700px) {
+    figure img {
+      width: 80vw;
+    }
+  }

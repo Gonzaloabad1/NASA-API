@@ -1,0 +1,53 @@
+:root {
+  --primary: #fcf7f7;
+  --secondary: #000000;
+  --text-color-outside: rgb(235, 235, 235);
+  --text-color-inside: red; /* Puedes elegir otro color que desees */
+  --textarea-background: purple; /* Cambiado a color morado */
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(235, 235, 235);
+}
+
+.logo {
+  height: 26rem;
+  width: 22rem;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+body {
+  background-image: url("https://img2.wallspic.com/crops/4/1/4/8/5/158414/158414-universo-ambiente-el_espacio_exterior-objeto_astronomico-espacio-5120x2880.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Esto evita que la imagen se desplace con el contenido */
+}
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+.fcc-btn {
+  background-color: #1e80a7;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.fcc-btn:hover {
+  background-color: #223094;
+}
